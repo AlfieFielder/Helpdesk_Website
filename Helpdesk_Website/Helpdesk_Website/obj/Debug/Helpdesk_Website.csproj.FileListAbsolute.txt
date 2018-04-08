@@ -1,0 +1,9 @@
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\bin\Helpdesk_Website.dll.config
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\bin\Helpdesk_Website.dll
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\bin\Helpdesk_Website.pdb
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\obj\Debug\Helpdesk_Website.csprojResolveAssemblyReference.cache
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\obj\Debug\Helpdesk_Website.csproj.CoreCompileInputs.cache
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\obj\Debug\Helpdesk_Website.dll
+C:\Users\alfie\Documents\GitHub\Helpdesk_Website\Helpdesk_Website\Helpdesk_Website\obj\Debug\Helpdesk_Website.pdb
