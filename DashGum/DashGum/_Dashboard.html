@@ -11,6 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+
     <!--external css-->
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/css/zabuto_calendar.css">
@@ -32,9 +33,9 @@
 <body>
     <section id="container">
 
-    <!-- **********************************************************************************************************************************************************
-    TOP BAR CONTENT & NOTIFICATIONS
-    *********************************************************************************************************************************************************** -->
+        <!-- **********************************************************************************************************************************************************
+        TOP BAR CONTENT & NOTIFICATIONS
+        *********************************************************************************************************************************************************** -->
         <!--header start-->
         <header class="header black-bg">
             <div class="sidebar-toggle-box">
@@ -50,10 +51,9 @@
             </div>
         </header>
         <!--header end-->
-
-    <!-- **********************************************************************************************************************************************************
-    MAIN SIDEBAR MENU
-    *********************************************************************************************************************************************************** -->
+        <!-- **********************************************************************************************************************************************************
+        MAIN SIDEBAR MENU
+        *********************************************************************************************************************************************************** -->
         <!--sidebar start-->
         <aside>
             <div id="sidebar" class="nav-collapse ">
@@ -139,6 +139,156 @@
             </div>
         </aside>
         <!--sidebar end-->
+
+        <!-- **********************************************************************************************************************************************************
+        MAIN CONTENT
+        *********************************************************************************************************************************************************** -->
+        <!--main content start-->
+        <section id="main-content">
+            <section class="wrapper">
+
+                <div class="row">
+                    <div class="col-lg-12 main-chart">
+
+                        <div class="row mtbox">
+                            <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                                <div class="box1">
+                                    <span class="li_note"></span>
+                                    <h3>33</h3>
+                                </div>
+                                <p>New Tickets not assigned to anyone.</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 box0">
+                                <div class="box1">
+                                    <span class="li_pen"></span>
+                                    <h3>12</h3>
+                                </div>
+                                <p>12 Tickets assigned to you.</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 box0">
+                                <div class="box1">
+                                    <span class="li_eye"></span>
+                                    <h3>23</h3>
+                                </div>
+                                <p>Tickets havent had a response in 48 hours.</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 box0">
+                                <div class="box1">
+                                    <span class="li_stack"></span>
+                                    <h3>933</h3>
+                                </div>
+                                <p>Currently 933 open tickets.</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 box0">
+                                <div class="box1">
+                                    <span class="li_user"></span>
+                                    <h3>12</h3>
+                                </div>
+                                <p>12 Users logged in.</p>
+                            </div>
+
+                        </div><!-- /row mt -->
+
+                        <div class="row mt">
+                            <!-- SERVER STATUS PANELS -->
+                            <div class="col-md-4 col-sm-4 mb">
+                                <div class="white-panel pn donut-chart">
+                                    <div class="white-header">
+                                        <h5>Ticket Assignment</h5>
+                                    </div>
+                                    <canvas id="serverstatus01" height="170" width="170"></canvas>
+                                    <script>
+                                        var doughnutData1 = [
+                                            {
+                                                value: 30,
+                                                color: "#1abc9c"
+                                            },
+                                            {
+                                                value: 50,
+                                                color: "#2ecc71"
+                                            },
+                                            {
+                                                value: 100,
+                                                color: "#3498db"
+                                            },
+                                            {
+                                                value: 40,
+                                                color: "#9b59b6"
+                                            },
+                                            {
+                                                value: 120,
+                                                color: "#34495e"
+                                            }
+                                        ];
+                                        var myDoughnut1 = new Chart(document.getElementById("serverstatus01").getContext("2d")).Doughnut(doughnutData1);
+                                    </script>
+                                </div><!--/grey-panel -->
+                            </div><!-- /col-md-4-->
+
+                            <!-- SERVER STATUS PANELS -->
+                            <div class="col-md-4 col-sm-4 mb">
+                                <div class="white-panel pn donut-chart">
+                                    <div class="white-header">
+                                        <h5>SERVER LOAD</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4 col-xs-4 goleft">
+                                            <p><i class="fa fa-database"></i> 70%</p>
+                                        </div>
+                                    </div>
+                                    <canvas id="serverstatus02" height="120" width="120"></canvas>
+                                    <script>
+                                        var doughnutData2 = [
+                                            {
+                                                value: 70,
+                                                color: "#68dff0"
+                                            },
+                                            {
+                                                value: 30,
+                                                color: "#fdfdfd"
+                                            }
+                                        ];
+                                        var myDoughnut2 = new Chart(document.getElementById("serverstatus02").getContext("2d")).Doughnut(doughnutData2);
+                                    </script>
+                                </div><!--/grey-panel -->
+                            </div><!-- /col-md-4-->
+
+                                <!-- SERVER STATUS PANELS -->
+                                <div class="col-md-4 col-sm-4 mb">
+                                    <div class="white-panel pn donut-chart">
+                                        <div class="white-header">
+                                            <h5>SERVER LOAD</h5>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4 col-xs-4 goleft">
+                                                <p><i class="fa fa-database"></i> 70%</p>
+                                            </div>
+                                        </div>
+                                        <canvas id="serverstatus03" height="120" width="120"></canvas>
+                                        <script>
+                                            var doughnutData3 = [
+                                                {
+                                                    value: 70,
+                                                    color: "#68dff0"
+                                                },
+                                                {
+                                                    value: 30,
+                                                    color: "#fdfdfd"
+                                                }
+                                            ];
+                                            var myDoughnut3 = new Chart(document.getElementById("serverstatus03").getContext("2d")).Doughnut(doughnutData3);
+                                        </script>
+                                    </div><!--/grey-panel -->
+                                </div><!-- /col-md-4-->
+
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </section>
+        </section>
+    </section>
 
 </body>
 </html>
